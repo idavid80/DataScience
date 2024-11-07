@@ -1,4 +1,32 @@
-Repasaremos la recopilación de datos con una API. En esta tarea, trabajaremos con los datos de lanzamiento de SpaceX que se recopilan desde una API, concretamente la API REST de SpaceX. Esta API nos proporcionará datos sobre los lanzamientos, incluida información sobre el cohete utilizado, la carga útil entregada, las especificaciones de lanzamiento, las especificaciones de aterrizaje y el resultado del aterrizaje. Nuestro objetivo es utilizar estos datos para predecir si SpaceX intentará aterrizar un cohete o no. Los puntos finales de la API REST de SpaceX, o URL, empiezan por api.spacexdata.com/v4/. Tenemos los diferentes puntos finales, por ejemplo: /capsules y /cores Vamos a trabajar con el endpoint 
+# Análisis de Datos de Lanzamientos de SpaceX
 
-api.spacexdata.com/v4/launches/past. Veamos cómo funciona la API. Utilizaremos esta URL para dirigirnos a un punto final específico de la API para obtener datos de lanzamientos pasados. Realizaremos una solicitud get utilizando la biblioteca requests para obtener los datos de lanzamiento, que utilizaremos para obtener los datos de la API. Este resultado se puede ver llamando al método .json(). Nuestra respuesta será en forma de JSON, concretamente una lista de objetos JSON. Dado que estamos utilizando una API, notarás en el laboratorio que cuando obtenemos una respuesta es en forma de JSON. En concreto, tenemos una lista de objetos JSON que representan cada uno un lanzamiento. Para convertir este JSON en un marco de datos, podemos utilizar la función json_normalize. Esta función nos permitirá «normalizar» los datos JSON estructurados en una tabla plana. Este es el aspecto que tendrá el JSON en forma de tabla. Otra fuente de datos popular para obtener los datos de lanzamiento del Falcon 9 es el web scraping de páginas Wiki relacionadas. En esta lección, utilizarás el paquete BeautifulSoup de Python para hacer web scraping de algunas tablas HTML que contienen valiosos registros de lanzamiento de Falcon 9.
-A continuación, hay que analizar los datos de esas tablas y convertirlos en un marco de datos Pandas para su posterior visualización y análisis. Queremos transformar estos datos en bruto en un conjunto de datos limpio que proporcione datos significativos sobre la situación que estamos tratando de abordar: Manipulación de datos mediante una API, Muestreo de datos y Manejo de nulos. En algunas columnas, como la de cohetes, tenemos un número de identificación, no datos reales. Esto significa que tendremos que volver a utilizar la API apuntando a otro punto final para recopilar datos específicos para cada número de identificación.Estas funciones ya están creadas para ti, y utilizarán lo siguiente:Booster, Launchpad, carga útil y núcleo.Los datos se almacenarán en listas y se utilizarán para crear nuestro conjunto de datos. Otro problema que tenemos es que los datos de lanzamiento que tenemos incluyen datos para el booster Falcon 1 mientras que nosotros sólo queremos el Falcon 9. En este laboratorio, tendrás que averiguar cómo filtrar/muestrear los datos para eliminar los lanzamientos del Falcon 1. Por último, no todos los datos recopilados son perfectos. Podemos acabar con datos que contengan valores NULL. A veces debemos tratar estos valores nulos para que el conjunto de datos sea viable para el análisis. En este caso, trataremos con los valores NULL dentro de PayloadMass. En este laboratorio, deberás encontrar la forma de calcular la media de los datos de PayloadMass y, a continuación, sustituir los valores nulos de PayloadMass por la media. Dejaremos la columna LandingPad con valores NULL, ya que se representa cuando no se utiliza una plataforma de aterrizaje. Esto se tratará utilizando una codificación en caliente más adelante.
+Este proyecto se enfoca en recopilar y analizar datos de lanzamientos de SpaceX a través de la API REST de SpaceX y mediante técnicas de web scraping. El objetivo es construir un conjunto de datos limpio y estructurado que permita predecir si SpaceX intentará aterrizar un cohete en sus misiones.
+
+## Descripción del Proyecto
+
+Utilizaremos la API de SpaceX para extraer datos detallados sobre los lanzamientos, incluyendo información del cohete, carga útil, especificaciones de lanzamiento, aterrizaje y resultados. Trabajaremos con el endpoint de lanzamientos pasados:
+
+https://api.spacexdata.com/v4/launches/past
+
+### Etapas del Proyecto
+
+1. **Recopilación de datos mediante API**  
+   - Realizaremos una solicitud `GET` para obtener datos en formato JSON, que luego transformaremos en un DataFrame utilizando `json_normalize`.
+   - Consultaremos endpoints adicionales para recopilar detalles específicos, como el modelo del cohete y la carga útil, almacenándolos en listas para su análisis.
+
+2. **Filtrado de Datos**  
+   - Filtraremos los datos de lanzamiento para incluir solo los lanzamientos del Falcon 9, excluyendo aquellos relacionados con el Falcon 1.
+
+3. **Manejo de Nulos**  
+   - En la columna `PayloadMass`, reemplazaremos los valores NULL por el promedio calculado de esta columna.
+   - En el caso de la columna `LandingPad`, los valores NULL representan lanzamientos sin plataforma de aterrizaje, y serán tratados con técnicas de codificación en caliente más adelante.
+
+4. **Web Scraping de Wikipedia**  
+   - Utilizaremos `BeautifulSoup` para extraer datos de tablas HTML relacionadas con los lanzamientos de Falcon 9 en páginas de Wikipedia.
+   - Convertiremos estas tablas en DataFrames de Pandas para su análisis.
+
+### Librerías Utilizadas
+
+- `requests` para realizar las solicitudes a la API de SpaceX.
+- `pandas` para manipulación de datos.
+- `BeautifulSoup` para realizar el web scraping.
