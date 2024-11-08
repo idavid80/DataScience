@@ -1,4 +1,4 @@
-# Análisis de Datos de Lanzamientos de SpaceX
+# Applied Data Science Capstone
 
 Este proyecto se enfoca en recopilar y analizar datos de lanzamientos de SpaceX a través de la API REST de SpaceX y mediante técnicas de web scraping. El objetivo es construir un conjunto de datos limpio y estructurado que permita predecir si SpaceX intentará aterrizar un cohete en sus misiones.
 

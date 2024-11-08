@@ -1,8 +1,10 @@
-# Enfoque Analítico Según el Tipo de Pregunta
+# Data Science Methodology
+
+## Enfoque Analítico Según el Tipo de Pregunta
 
 Al elegir un enfoque analítico para un problema, el tipo de pregunta que intentas responder influye en gran medida en la metodología. A continuación, se presentan cinco tipos comunes de preguntas y los enfoques analíticos correspondientes:
 
-## 1. Preguntas Descriptivas: “¿Cuál es el estado actual?”
+### 1. Preguntas Descriptivas: “¿Cuál es el estado actual?”
 
 **Enfoque:** Análisis Descriptivo
 
@@ -22,7 +24,7 @@ Al elegir un enfoque analítico para un problema, el tipo de pregunta que intent
 
 ---
 
-## 2. Preguntas Diagnósticas: “¿Por qué ocurrió esto?”
+### 2. Preguntas Diagnósticas: “¿Por qué ocurrió esto?”
 
 **Enfoque:** Análisis Diagnóstico
 
@@ -42,7 +44,7 @@ Al elegir un enfoque analítico para un problema, el tipo de pregunta que intent
 
 ---
 
-## 3. Preguntas Predictivas: “¿Qué es probable que ocurra?”
+### 3. Preguntas Predictivas: “¿Qué es probable que ocurra?”
 
 **Enfoque:** Análisis Predictivo
 
@@ -62,7 +64,7 @@ Al elegir un enfoque analítico para un problema, el tipo de pregunta que intent
 
 ---
 
-## 4. Preguntas Prescriptivas: “¿Qué debemos hacer?”
+### 4. Preguntas Prescriptivas: “¿Qué debemos hacer?”
 
 **Enfoque:** Análisis Prescriptivo
 
@@ -82,7 +84,7 @@ Al elegir un enfoque analítico para un problema, el tipo de pregunta que intent
 
 ---
 
-## 5. Preguntas de Clasificación: “¿A qué categoría pertenece esto?”
+### 5. Preguntas de Clasificación: “¿A qué categoría pertenece esto?”
 
 **Enfoque:** Clasificación (Aprendizaje Supervisado)
 

@@ -1,4 +1,4 @@
-# Curso de IA Generativa para Ciencia de Datos
+# 11. Generative AI: Elevate Your Data Science Career
 
 Trabajos del curso la IA generativa en el ámbito de la ciencia de datos. A través de esta tecnología, podrás generar contenido diverso (imágenes, texto, código, música) y enfrentar problemas comunes como la escasez de datos, el sesgo en datos, y la necesidad de crear datos realistas para entrenamiento de modelos.
 

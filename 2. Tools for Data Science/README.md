@@ -1,4 +1,4 @@
-# Herramientas de Código Abierto para Ciencia de Datos
+# Tools for Data Science
 
 Las herramientas se clasifican de la siguiente manera:
 

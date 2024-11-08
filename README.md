@@ -51,6 +51,22 @@ Al completar este programa, tengo un portafolio robusto con proyectos de ciencia
 
 Este programa está recomendado por **ACE® y FIBAA**, lo que significa que, al finalizar, pude obtener hasta **12 créditos universitarios** y **6 créditos ECTS**.
 
+## 📝 Estructura del Proyecto
+
+- **`1. What is Data Science?/`**: Introducción a la ciencia de datos, rutas profesionales, demandas, algoritmos y herramientas.
+- **`2. Tools for Data Science/`**: Herramientas de gestión de datos, integración y transformación de datos, visualización de datos,despliegue de modelos, monitoreo y evaluación de modelos, desarrollo y ejecución de código, gestión de activos de código.
+- **`3. Data Science Methodology/`**: 
+- **`4. Python for Data Science, AI & Development/`**: Conceptos básicos, estructuras de datos, fundamentos de la programación, trabajo con datos y APIs y eecolección de datos de Python.
+- **`5. Python Project for Data Science/`**:
+- **`6. Databases and SQL for Data Science with Python/`**: 
+- **`7. Data Analysis with Python/`**: 
+- **`8. /`**: 
+- **`9. /`**: 
+- **`10. Applied Data Science Capstone/`**: 
+-  **`11. Generative AI: Elevate Your Data Science Career`**: 
+- **`12/`**: 
+---
+
 ## Instructores
 
 
