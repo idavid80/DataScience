@@ -58,6 +58,3 @@ La Inteligencia Artificial Generativa ha revolucionado el campo de la ciencia de
 Las herramientas de IA generativa permiten a los científicos de datos ampliar conjuntos de datos, crear contenido nuevo y simular escenarios para impulsar la innovación y permitir avances en todas las industrias. Estas herramientas evolucionan constantemente, permitiendo a los científicos de datos explorar nuevas posibilidades y lograr descubrimientos significativos en inteligencia artificial y ciencia de datos.
 
 ---
-
-## Autor(es)
-Abhishek Gagneja

@@ -24,10 +24,7 @@ La visualización de datos es una técnica para presentar datos complejos de man
 
 6. [**Objetivos prácticos**](#-objetivos)  
 
-
-
 ---
-
 
 ## 1. Introducción a las Herramientas de Visualización de Datos
 
