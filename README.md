@@ -60,11 +60,11 @@ Este programa está recomendado por **ACE® y FIBAA**, lo que significa que, al 
 - **`5. Python Project for Data Science/`**:
 - **`6. Databases and SQL for Data Science with Python/`**: 
 - **`7. Data Analysis with Python/`**: 
-- **`8. /`**: 
-- **`9. /`**: 
+- **`8. Data Visualization with Python/`**: 
+- **`9. Machine Learning with Python /`**: 
 - **`10. Applied Data Science Capstone/`**: 
--  **`11. Generative AI: Elevate Your Data Science Career`**: 
-- **`12/`**: 
+-  **`11. Generative AI: Elevate Your Data Science Career/`**: 
+- **`12.  Data Scientist Career Guide and Interview Preparation/`**: 
 ---
 
 ## Instructores
