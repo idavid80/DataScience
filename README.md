@@ -15,7 +15,7 @@ El programa cubre herramientas de vanguardia como **Python**, **SQL**, **R**, **
 
 ## Proyectos Realizados
 
-Durante el curso, completé varios proyectos prácticos que me permitieron aplicar los conocimientos adquiridos en situaciones del mundo real. Estos proyectos son parte importante de mi portafolio y muestran mi capacidad para trabajar con datos de diferentes áreas.
+Durante el curso, completé varios proyectos prácticos que me permitieron aplicar los conocimientos adquiridos en situaciones del mundo real. Estos proyectos son parte importante de mi repositorio y muestran mi capacidad para trabajar con datos de diferentes áreas.
 
 ### Proyectos:
 1. **Extracción y graficado de datos financieros** usando la biblioteca Pandas en Python.
@@ -26,8 +26,6 @@ Durante el curso, completé varios proyectos prácticos que me permitieron aplic
 6. **Entrenamiento y comparación de modelos de aprendizaje automático.**
 
 ## Herramientas y Bibliotecas Utilizadas
-
-Durante el curso, trabajé con una serie de herramientas y bibliotecas ampliamente utilizadas en la ciencia de datos. Estas herramientas me permitieron procesar, analizar y visualizar datos de manera eficiente.
 
 - **Herramientas:**
   - Jupyter / JupyterLab
@@ -44,12 +42,6 @@ Durante el curso, trabajé con una serie de herramientas y bibliotecas ampliamen
   - ipython-sql
   - Scikit-learn
   - SciPy
-
-## Resultados y Logros
-
-Al completar este programa, tengo un portafolio robusto con proyectos de ciencia de datos que puedo mostrar en entrevistas y que demuestran mis habilidades para resolver problemas reales utilizando datos. Además, recibí acceso a la Red de Talento de IBM, lo que me permite estar al tanto de nuevas oportunidades laborales y conectar con empresas que buscan científicos de datos.
-
-Este programa está recomendado por **ACE® y FIBAA**, lo que significa que, al finalizar, pude obtener hasta **12 créditos universitarios** y **6 créditos ECTS**.
 
 ## 📝 Estructura del Proyecto
 
