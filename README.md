@@ -84,7 +84,8 @@ Durante el curso, completé varios proyectos prácticos que me permitieron aplic
 ## Enlaces Útiles
 
 - [IBM Data Science Professional Certificate](https://www.coursera.org/programs/data-analyst-fundae-1uc7a/professional-certificates/ibm-data-science?collectionId=J3cX7) – Aquí puedes encontrar todos los proyectos completados durante el curso.
-
+- [What is generative AI?](https://research.ibm.com/blog/what-is-generative-AI)
+- [A Beginner’s Guide to Language Models](https://builtin.com/data-science/beginners-guide-language-models)
 ---
 
 ¡Gracias por visitar mi repositorio y ser parte de mi viaje en el mundo de la ciencia de datos!
